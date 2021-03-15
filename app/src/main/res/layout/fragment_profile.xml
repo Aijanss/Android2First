@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/lay_style"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+
+  <TextView
+      android:id="@+id/text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="133dp"
+      android:text="Stalbek kyzy Aizhan"
+      android:textColor="@color/white"
+      android:textSize="24sp"
+      android:textStyle="bold" />
+
+  <ImageView
+      android:id="@+id/image"
+      android:layout_width="137dp"
+      android:layout_height="115dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="102dp"
+      android:layout_marginTop="68dp"
+      android:background="#befaee" />
+
+  <TextView
+      android:id="@+id/textView9"
+      android:layout_width="156dp"
+      android:layout_height="34dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="202dp"
+      android:layout_marginEnd="25dp"
+      android:text="Kyrgyzstan"
+      android:textSize="20sp"
+      android:textColor="#e1faf2"/>
+
+  <TextView
+      android:id="@+id/textView10"
+      android:layout_width="151dp"
+      android:layout_height="36dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="203dp"
+      android:layout_marginEnd="249dp"
+      android:text="UI/UX Designer"
+      android:textSize="20sp"
+      android:textColor="#e1faf2"/>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_gravity="clip_vertical"
+      android:layout_marginStart="4dp"
+      android:layout_marginTop="253dp"
+      android:layout_marginEnd="-2dp"
+      android:background="@drawable/lay_stayle2">
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="366dp"
+        android:text="Following"
+        android:textColor="#98aba5 "
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="366dp"
+        android:text="Followers"
+        android:textColor="#98aba5 "
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="366dp"
+        android:text="Projects"
+        android:textColor="#98aba5 "
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="417dp"
+        android:text="10"
+        android:textColor="#1fe3ed"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginBottom="417dp"
+        android:text="20"
+        android:textColor="#1fe3ed"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="417dp"
+        android:text="50"
+        android:textColor="#1fe3ed"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/bt_style"
+        android:text="Follow"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="282dp"
+        android:text="About Aizhan"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="402dp"
+        android:layout_height="186dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="94dp"
+        android:text="UI/UX Design"
+        android:textSize="20sp" />
+
+
+  </RelativeLayout>
+
+</RelativeLayout>
